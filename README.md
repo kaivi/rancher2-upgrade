@@ -48,7 +48,7 @@ build:
 
 deploy to test:
   stage: deploy
-  image: kaivi/rancher2-upgrade:v1.0.0
+  image: kaivi/rancher2-upgrade:v2.0.0
   variables:
     GIT_STRATEGY: none
   only:
